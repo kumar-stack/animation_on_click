@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 820px;
+}
+.container{
+    background-color: darkcyan;
+    width: 850px;
+    height:299px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container2{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 850px;
+    height: 299px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    color: chocolate;
+    font-size: 26px;
+    display: none;
+}
+.box{
+    width:34px;
+    height: 50px;
+    background-color: whitesmoke;
+    transition: 1s all;
+}
+.start{
+    font-size: 24px;
+    padding: 5px 10px;
+    position: fixed;
+    left: 180px;
+    top: 250px;
+}
+.hide{
+    font-size: 24px;
+    padding: 5px 10px;
+    position: fixed;
+    top: 400px;
+    left: 50px;
+}
+
+.timer{
+    position: fixed;
+    top: 406px;
+    left: 150px;
+}
+
+
+@media(min-width:280px) and (max-width:480px){
+    .main{
+        height: 706px;
+    }
+    .container{
+        width: 85%;
+        height: 300px;
+        top: 80px;
+        left: 35px;
+    }
+    .container2{
+        font-family: 'Permanent Marker', cursive;
+        width: 85%;
+        height:300px;
+        color: chocolate;
+        font-size: 18px;
+        justify-content: center;
+        align-items: center;
+        background-color: rebeccapurple;
+    }
+    .box{
+        width:10%;
+        height: 20px;
+        background-color: whitesmoke;
+        transition: 1s all;
+        
+    }
+    .start{
+        font-size: 18px;
+        padding: 4px 8px;
+        left: 25%;
+        top: 530px;
+    }
+    .hide{
+        font-size: 18px;
+        padding: 4px 8px;
+        top: 530px;
+        left: 58%;
+    }
+    .timer{
+        text-align: center;
+        width: 100%;
+        top: 600px;
+        left: 0;
+    }
+}
